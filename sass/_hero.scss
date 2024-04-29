@@ -1,0 +1,34 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../images/clouds_sky_beautiful_174226_3840x2160.jpg");
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather__wrapper {
+    width: 100%;
+    min-height: 300px;
+    background: #fff2;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    text-align: center;
+
+    
+}
+.weather__region {
+    font-size: 24px;
+}
+
+.weather__info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.weather__degree {
+    font-size: 80px;
+}
