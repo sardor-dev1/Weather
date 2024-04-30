@@ -4,6 +4,27 @@ header {
     left: 0;
     background: #fff2;
     width: 100%;
+    padding: 15px 0;
+}
+
+nav {
+    h2 {
+        color: white;
+    }
+
+    @media (max-width:350px) {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+.search__input {
+    border: skyblue;
+    outline: none;
+    padding: 6px;
+    border-radius: 10px;
+    background: rgb(240, 240, 240);
 }
 
 .nav {

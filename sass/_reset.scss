@@ -23,5 +23,9 @@ button {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
+
+    @media (max-width:500px) {
+        width: 95% !important;
+    }
 }
 
